@@ -1,38 +1,122 @@
 var problem=[
     {
-        "item":"这是问题的标书11111",
-        "short":"zswtdbs1",
-        "list":"171",
-        "answer":"这是答案的啊啊"
+        "item":"炼制药剂一共有四个步骤，分别是？（可阅读《魔域》第一百二十五章查阅答案）",
+        "short":"lzyjygysgbzfbs",
+        "list":"125",
+        "answer":"研磨、提浆、合成、试药"
     },
     {
-        "item":"这是问题的标书222222",
-        "short":"zswtdbs2",
+        "item":"旭日城的五大家族中，哪一个家族最富有？（可阅读《魔域》第一百五十九章查阅答案）",
+        "short":"xrcdwdjzznygjzzfy",
+        "list":"159",
+        "answer":"布莱恩家族"
+    },
+    {
+        "item":"雷诺给费恩叔叔购买‘治疗药水’是几品药剂？（可阅读《魔域》第一百二十四章查阅答案）",
+        "short":"lngfessgmzlyssjpyj",
+        "list":"124",
+        "answer":"一品"
+    },
+    {
+        "item":"雷诺入住在‘热血时代’大酒店哪一间？（可阅读《魔域》第一百七十二章查阅答案）",
+        "short":"lnrzzrxsddjdnyj",
         "list":"172",
-        "answer":"这是答案的啊啊"
+        "answer":"六楼六号套房"
     },
     {
-        "item":"这是问题的标书3333333",
-        "short":"zswtdbs3",
-        "list":"173",
-        "answer":"这是答案的啊啊"
+        "item":"‘水德金身’与‘魔咒意境’相比，谁的意境更高深？（可阅读《魔域》第一百七十七章查阅答案）",
+        "short":"sdjsymzyjxbsdyjggs",
+        "list":"177",
+        "answer":"水德金身"
     },
     {
-        "item":"这是问题的标书4444444",
-        "short":"zswtdbs4",
-        "list":"174",
-        "answer":"这是答案的啊啊"
+        "item":"夜晚的旭日城跟白天比起来是如何的？（可阅读《魔域》第一百八十章查阅答案）",
+        "short":"ywdxrcgbtbqlsrhd",
+        "list":"180",
+        "answer":"夜晚有宵禁，万籁俱寂"
     },
     {
-        "item":"这是问题的标书555555",
-        "short":"zswtdbs5",
+        "item":"‘紫翼尸魔’死后留下的九尺巨剑是什么品质？（可阅读《魔域》第一百六十七章查阅答案）",
+        "short":"zysmshlxdjcjjssmpz",
+        "list":"167",
+        "answer":"魂阶"
+    },
+    {
+        "item":"古怪大师一共‘宰了’雷诺多少魔石？（可阅读《魔域》第一百七十章查阅答案）",
+        "short":"ggdsygzllndsms",
+        "list":"170",
+        "answer":"七十万魔石"
+    },
+    {
+        "item":"克劳德把金色‘净化药剂’扔出窗外，被谁捡到了？（可阅读《魔域》第一百七十二至一百七十三章查阅答案）",
+        "short":"kldbjsjhyjrccwbsjdl",
+        "list":"172173",
+        "answer":"亚萨的药童"
+    },
+    {
+        "item":"整个旭日城对于横空出世的金光药剂震撼不已，引发空前的热议。这轰动，堪比？（可阅读《魔域》第一百七十五章查阅答案）",
+        "short":"zgxrcdyhkcsdjgyjzhbyyfkqdryzhdkb",
         "list":"175",
-        "answer":"这是答案的啊啊"
+        "answer":"城主府当年禅让府主"
     },
     {
-        "item":"这是问题的标书66666",
-        "short":"zswtdbs6",
-        "list":"176",
-        "answer":"这是答案的啊啊"
+        "item":"雷诺识海的墨珠有什么功能？（可阅读《魔域》第一百七十九章查阅答案）",
+        "short":"lnshdmzysmgn",
+        "list":"179",
+        "answer":"布置幻界"
+    },
+    {
+        "item":"雷诺给费恩叔叔购买‘治疗药水’花了多少钱？（可阅读《魔域》第一百二十四章查阅答案）",
+        "short":"lngfessgmzlyshldsq",
+        "list":"124",
+        "answer":"1000金币"
+    },
+    {
+        "item":"雷诺初入斗将境，体内的脉轮分别是？（可阅读《魔域》第一百七十三章查阅答案）",
+        "short":"lncrdjjtndmlfbs",
+        "list":"173",
+        "answer":"海底轮，灵泉轮"
+    },
+    {
+        "item":"在没有得到任何金光药剂师的消息时，亚萨大师很颓然，很落寞，真正原因是？（可阅读《魔域》第一百七十七章查阅答案）",
+        "short":"zmyddrhjgyjsdxxsysdshtrhlmzzyys",
+        "list":"177",
+        "answer":"损失与能者论道的机会"
+    },
+    {
+        "item":"雷诺自打入住‘热血时代’大酒店，已经多久没有出门了？克劳德表示很心焦？（可阅读《魔域》第一百七十七至一百七十八章查阅答案）",
+        "short":"lnzdrzrxsddjdyjdjmycmlkldbshxj",
+        "list":"177178",
+        "answer":"整整7天"
+    },
+    {
+        "item":"‘魔法百科’上说，‘神书’是被一个叫做‘___’的人首次发现的？（可阅读《魔域》第一百八十章查阅答案）",
+        "short":"mfbksssssbygjzdrscfxd",
+        "list":"165",
+        "answer":"昂"
+    },
+    {
+        "item":"克劳德对雷诺下手的目的是要将雷诺的身体炼制成？（可阅读《魔域》第九十二至九十三章查阅答案）",
+        "short":"klddlnxsdmdsyjlndstlzc",
+        "list":"9293",
+        "answer":"百毒之体"
+    },
+    {
+        "item":"‘水德幻境’与‘水德金身’是什么关系？（可阅读《魔域》第一百七十八章查阅答案）",
+        "short":"sdhjysdjssssgx",
+        "list":"178",
+        "answer":"‘水德幻境’乃是‘水德金身’的至高形态"
+    },
+    {
+        "item":"旭日城城主举办‘万药大会’，派出李副官前去邀请谁来主持大会？（可阅读《魔域》第一百七十七章查阅答案）",
+        "short":"xrcczjbwydhpclfgqqyyslzcdh",
+        "list":"177",
+        "answer":"亚萨"
+    },
+    {
+        "item":"雷诺入住‘热血时代’大酒店，为什么让克劳德很是伤脑筋？（可阅读《魔域》第一百七十二章查阅答案）",
+        "short":"lnrzrxssdjdwsmrkldhssnj",
+        "list":"172",
+        "answer":"以上皆是"
     }
 ];

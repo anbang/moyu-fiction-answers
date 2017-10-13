@@ -1,6 +1,6 @@
-# moyu-fiction-answers
+魔域小说知多少的答题器：
 
-魔域小说知多少的答题器
+演示地址：[https://zhubangbang.com/demo/moyu-answers/index.html](https://zhubangbang.com/demo/moyu-answers/index.html "https://zhubangbang.com/demo/moyu-answers/index.html")
 
 满足70级的账号（非常好升到），每天都可以得一个灵魂；
 
@@ -17,3 +17,49 @@
 当然，如果你的时间不多，建议你还是直接买灵魂吧；
 
 本项目纯属业余乐趣；
+
+**使用方法**：
+
+![aaaaaa](https://zhubangbang.com/wp-content/uploads/2017/10/aaaaaa.png "aaaaaa")
+
+在输入框里输入关键词即可；
+
+关键词可以是下面的任意一种；
+
+> 1、问题
+> 
+> 2、问题的拼音首字母（不含任何标点）
+> 
+> 3、问题所在的章节号
+
+比如问题是：
+
+<pre>炼制药剂一共有四个步骤，分别是？（可阅读《魔域》第一百二十五章查阅答案）</pre>
+
+你可以输入的关键词可以有
+
+<pre>
+
+1. 炼制药剂一共有四个步骤，分别是？ 或者  药剂一共有四个
+
+2. lzyjygysgbzfbs 或者 ygysgbzfbs
+
+3. 125
+
+</pre>
+
+具体按照你的习惯来搜索即可；
+
+其它说明：如果章节号是两个连续的，比如：第一百七十二至一百七十三章查阅答案；这个时候章节号输入是 172173 即可
+
+**如果发现有遗漏的题目，欢迎发邮件通知我**
+
+**地址：www#zhubangbang.com (把#改为@即可)**
+
+邮件内请附上缺失的题目截图；截图格式推荐下面这种
+
+![图片](https://zhubangbang.com/wp-content/uploads/2017/10/QQ20171013011546.png "图片")
+
+红色的代表是，当前的正确答案，或者邮件内附带正确答案，谢谢
+
+~~~~

@@ -14,7 +14,7 @@ define(function (require, exports, module) {
                 if(e.keyCode==8){
                     $this.val("");
                 }
-                var searchName = $this.val();    
+                var searchName = $this.val().toLowerCase();
                 if (searchName == "") {
                       $wrapArea.find(".list-item").show();
                 } else {

@@ -2,6 +2,7 @@ define(function (require, exports, module) {
     "require:nomunge,exports:nomunge,module:nomunge";
     var $page=$("#page");
     var $wrapArea=$page.find(".j-list-wrap");
+    $page.find(".j-total").text(problem.length);
     var pageUtility={
         init:function(){
             this.initLeftRightNavigation();

@@ -262,5 +262,11 @@ var problem=[
         "short":"xrpmhfqzxgald wmyjsdtds",
         "list":"175",
         "answer":"想拉拢他"
+    },
+    {
+        "item":"雷诺初入斗将境，用‘魔法测力碑’测出的拳力是多少？（可阅读《魔域》第一百七十四章查阅答案）",
+        "short":"lncrdjjymfclbccdqlsds",
+        "list":"174",
+        "answer":"三万五千斤"
     }
 ];

@@ -1,3 +1,4 @@
+/*
 .amswers-wrap{width: 1200px;margin: 10px auto;}
 .search-input{
     -webkit-writing-mode: horizontal-tb;
@@ -35,6 +36,9 @@
 .list-wrap .list-item:hover{background-color: rgb(228, 228, 228)}
 .list-wrap .item-left{ display: inline-block;float: left;max-width: 689px;padding-right: 10px;border-right:1px dashed rgb(235, 235, 235); }
 .list-wrap .item-right{ display: inline-block;float: right;width: 490px;padding-left: 10px;color: red; }
+*/
+#page .amswers-wrap{border-top: 2px solid #3dae00; }
+.search-area .answers-input-des{height: 40px;line-height: 40px;}
 
 .footer{
     color:#a5a5a5; 

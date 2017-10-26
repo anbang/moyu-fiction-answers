@@ -24,7 +24,8 @@ define(function (require, exports, module) {
                         var short = sourcesData.short;            
                         var list = sourcesData.list+"";
                         var answer=sourcesData.item;  
-                        if ( (short.indexOf(searchName) != -1) || (list.indexOf(searchName) != -1) || (answer.indexOf(searchName) != -1) ) {
+                        // if ( (short.indexOf(searchName) != -1) || (list.indexOf(searchName) != -1) || (answer.indexOf(searchName) != -1) ) {
+                        if ( list.indexOf(searchName) != -1 ) {
                             $(this).show();
                         } else {
                             $(this).hide();
@@ -38,8 +39,9 @@ define(function (require, exports, module) {
             $.each(problem,function(index,val){
                 var tempItemStr=[
                     '                <li class="list-item clearfix" data-short='+val.short+' data-list='+val.list+' data-item='+val.item+'>',
-                    '                    <p  class="item-left">'+val.item+'</p>',
-                    '                    <p class="item-right">'+val.answer+'</p>',
+                    // '                    <p  class="list-leftcon">'+val.item+'</p>',
+                    '                    <p class="list-con">'+val.item+'</p>',
+                    '                    <p class="list-arrow"><span class="mui-txt-danger">'+val.answer+'</span></p>',
                     '                </li>'].join("");
                     targetMenu+=tempItemStr;
             });
@@ -48,24 +50,3 @@ define(function (require, exports, module) {
     };
     pageUtility.init();
 });
-
-
-function searchCity() {
-    var searchCityName = $("#searchCityName").val();    
-    if (searchCityName == "") {
-          $("ul li").show();
-    } else {
-      $("ul li").each(function() {
-        var pinyin = $(this).attr("pinyin");            
-        var cityName = $(this).attr("cityName");            
-        if (pinyin.indexOf(searchCityName) != -1|| cityName.indexOf(searchCityName) != -1) {
-            $(this).show();
-        } else {
-            $(this).hide();
-        }
-        });
-    }
-  }
-  $('#searchCityName').bind('input propertychange', function() {
-    searchCity();
-  });
